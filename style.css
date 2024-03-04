@@ -418,7 +418,7 @@ p {
   flex-direction: column;
   width: clamp(320px, 100%, 590px);
   height: 500px;
-  margin-bottom: 166px;
+  margin-bottom: 18%;
 }
 
 .main .containerproduct .article img {
