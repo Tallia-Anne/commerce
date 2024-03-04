@@ -453,6 +453,9 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 12px;
+  width: clamp(320px, 100%, 100%);
+  align-content: center;
+  justify-content: center;
 }
 
 .main .containerproduct .article .boutons button:nth-child(1) {
