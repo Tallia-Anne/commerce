@@ -6,11 +6,12 @@
 
 /* ************************************************* */
 
-/* .main .containerproduct
-{
- width: 100%;
-height: auto;
-} */
+.main .containerproduct .article .boutons button:nth-child(2) {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 12px 128px;
+  text-transform: uppercase;
+}
 
 
 /*************************************************\
