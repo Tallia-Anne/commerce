@@ -6,6 +6,11 @@
 
 /* ************************************************* */
 
+.main .containerproduct .article {
+  height: 700px;
+  margin-bottom: 181px;
+}
+
 .main .containerproduct .article .boutons button:nth-child(2) {
   background-color: transparent;
   border: 1px solid black;
