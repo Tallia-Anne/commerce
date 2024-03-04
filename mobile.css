@@ -20,7 +20,10 @@ height: auto;
 .main .bestsellers  {
   height: 2300px;
   width: auto;
-    
+flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+gap: 12px;
 }
 .main .bestsellers .containerbestsellers .article {
   display: flex;
