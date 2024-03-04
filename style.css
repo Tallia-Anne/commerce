@@ -397,6 +397,10 @@ p {
   gap: 12px;
 }
 
+.main .arrivaldetails .choice p:nth-child(2) {
+  border: 1px solid black;
+  padding: 5px 5px;
+}
 .main .containerproduct {
   width: 100%;
   display: flex;
@@ -404,16 +408,16 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  gap: 12px;
+  gap: 24px;
   margin-bottom: 50px;
 }
 
 .main .containerproduct .article {
   display: flex;
   flex-direction: column;
-  width: 590px;
+  width: clamp(320px, 100%, 590px);
   height: 500px;
-  margin-bottom: 181px;
+  margin-bottom: 200px;
 }
 
 .main .containerproduct .article img {
@@ -461,7 +465,7 @@ p {
 .main .containerproduct .article .boutons button:nth-child(2) {
   background-color: transparent;
   border: 1px solid black;
-  padding: 12px 198px;
+  padding: 12px 15%;
   text-transform: uppercase;
 }
 
