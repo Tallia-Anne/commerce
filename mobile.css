@@ -2,7 +2,7 @@
 
 
 /*************************************************\
-            #BEST Seller
+            #PRODUCT
 
 /* ************************************************* */
 
@@ -19,7 +19,7 @@ height: auto;
 /* ************************************************* */
 .main .bestsellers  {
   height: 2350px;
-  width: auto;
+  width: 100%;
 flex-direction: column; 
   justify-content: center;
   align-items: center; 

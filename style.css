@@ -411,7 +411,7 @@ p {
 .main .containerproduct .article {
   display: flex;
   flex-direction: column;
-  width: 590px;
+  width: clamp(320px, 100%, 590px);
   height: 500px;
   margin-bottom: 181px;
 }
