@@ -21,6 +21,12 @@ height: auto;
   height: 2300px;
   width: auto;
 }
-
+.main .bestsellers .containerbestsellers .article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 181px;
+}
 
 }
