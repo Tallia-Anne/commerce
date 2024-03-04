@@ -13,10 +13,14 @@
 
 
 
+
 /*************************************************\
             #PRODUCT
 
 /* ************************************************* */
+.main .containerproduct{
+gap : 20px
+}
 
 .main .containerproduct .article {
  display: flex;
