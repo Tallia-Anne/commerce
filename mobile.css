@@ -1,5 +1,17 @@
 @media screen and (max-width: 480px) {
 
+/*************************************************\
+            #ARRIVAL
+
+/* ************************************************* */
+
+.main .arrivaldetails {
+  height: 150px;
+  display: flex;
+  padding: 20px;
+}
+
+
 
 /*************************************************\
             #PRODUCT
@@ -48,6 +60,11 @@ gap: 12px;
 margin-bottom: 20px;
 }
 
+
+/*************************************************\
+            #CALLBACKPRODUCT
+
+/* ************************************************* */
 
 .main .sectioncallbackproduct {
   height: 700px;
