@@ -381,6 +381,7 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 43px;
+  margin-bottom: 20px;
 }
 .main .arrivaldetails h3 {
   text-transform: uppercase;
