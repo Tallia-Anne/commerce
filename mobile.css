@@ -16,7 +16,7 @@
   border: 1px solid black;
   padding: 12px 128px;
   text-transform: uppercase;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 
 
@@ -38,6 +38,14 @@ gap: 12px;
   width: 300px;
   height: 680px;
   margin-bottom: 21px;
+}
+
+.main .bestsellers .containerbestsellers .article .boutons button:nth-child(2) {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 12px 98px;
+  text-transform: uppercase;
+margin-bottom: 20px;
 }
 
 }
