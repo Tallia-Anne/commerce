@@ -525,6 +525,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 121px;
 }
 
 .main .bestsellers .containerbestsellers .article .detailsproduct h4 {
