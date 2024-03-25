@@ -602,7 +602,7 @@ p {
   gap: 20px;
 }
 
-.footer .containerfooter .nav-footer .footer-link p {
+.footer .containerfooter .nav-footer .footer-link li > a {
 color: black;
 }
 
