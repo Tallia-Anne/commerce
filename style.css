@@ -602,6 +602,10 @@ p {
   gap: 20px;
 }
 
+.footer .containerfooter .nav-footer .footer-link p {
+color: black;
+}
+
 .footer .containerfooter .input-news {
   display: flex;
   flex-direction: column;
