@@ -76,3 +76,102 @@
 }
 
 }
+
+@media screen and (max-width: 480px) {
+
+
+
+
+
+/*************************************************\
+            #ARRIVAL
+
+/* ************************************************* */
+
+.main .arrivaldetails {
+  height: 150px;
+  display: flex;
+  padding: 20px;
+}
+
+
+
+
+/*************************************************\
+            #PRODUCT
+
+/* ************************************************* */
+.main .containerproduct{
+gap : 20px
+}
+
+.main .containerproduct .article {
+ display: flex;
+  flex-direction: column;
+  width: 300px;
+      height: 711px;
+    margin-bottom: 21px;
+}
+
+.main .containerproduct .article .boutons button:nth-child(2) {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 12px 98px;
+  text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+
+/*************************************************\
+            #BEST Seller
+
+/* ************************************************* */
+.main .bestsellers  {
+  height: 2550px;
+  width: 100%;
+flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+gap: 12px;
+}
+.main .bestsellers .containerbestsellers .article {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 680px;
+  margin-bottom: 21px;
+}
+
+.main .bestsellers .containerbestsellers .article .boutons button:nth-child(2) {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 12px 98px;
+  text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+
+/*************************************************\
+            #CALLBACKPRODUCT
+
+/* ************************************************* */
+
+.main .sectioncallbackproduct {
+  height: 700px;
+  width: 100%;
+    padding: 20px;
+  background-image: url("./img/pexels-thought-catalog-2228561.jpg");
+  filter: grayscale(100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+
